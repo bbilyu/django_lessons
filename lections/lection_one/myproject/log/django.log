@@ -1,0 +1,44 @@
+Watching for file changes with StatReloader
+K:\django_lessons_gb\lections\lection_one\myproject\myapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+K:\django_lessons_gb\lections\lection_one\myproject\myapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+K:\django_lessons_gb\lections\lection_one\myproject\myapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+K:\django_lessons_gb\lections\lection_one\myproject\myapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+K:\django_lessons_gb\lections\lection_one\myproject\myapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+K:\django_lessons_gb\lections\lection_one\myproject\myapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /prefix/about/ HTTP/1.1" 200 27
+"GET /prefix/ HTTP/1.1" 200 13
+K:\django_lessons_gb\lections\lection_one\myproject\myproject\settings.py changed, reloading.
+Watching for file changes with StatReloader
+K:\django_lessons_gb\lections\lection_one\myproject\myproject\settings.py changed, reloading.
+Watching for file changes with StatReloader
+Error in about page: division by zero
+Traceback (most recent call last):
+  File "K:\django_lessons_gb\lections\lection_one\myproject\myapp\views.py", line 18, in about
+    result = 1 / 0
+ZeroDivisionError: division by zero
+"GET /prefix/about/ HTTP/1.1" 200 27
+K:\django_lessons_gb\lections\lection_one\myproject\myproject\settings.py changed, reloading.
+INFO 2023-10-10 19:35:43,570 autoreload 8112 4512 Watching for file changes with StatReloader
+ERROR 2023-10-10 19:35:54,425 views 8112 2336 Error in about page: division by zero
+Traceback (most recent call last):
+  File "K:\django_lessons_gb\lections\lection_one\myproject\myapp\views.py", line 18, in about
+    result = 1 / 0
+ZeroDivisionError: division by zero
+INFO 2023-10-10 19:35:54,427 basehttp 8112 2336 "GET /prefix/about/ HTTP/1.1" 200 27
+INFO 2023-10-10 19:35:57,878 basehttp 8112 2336 "GET /prefix HTTP/1.1" 301 0
+INFO 2023-10-10 19:35:57,883 views 8112 2336 Index page accessed
+INFO 2023-10-10 19:35:57,884 basehttp 8112 2336 "GET /prefix/ HTTP/1.1" 200 13
+WARNING 2023-10-10 19:36:43,284 log 8112 2336 Not Found: /
+WARNING 2023-10-10 19:36:43,285 basehttp 8112 2336 "GET / HTTP/1.1" 404 2169
+WARNING 2023-10-10 19:36:50,447 log 8112 2336 Not Found: /prefix/index
+WARNING 2023-10-10 19:36:50,447 basehttp 8112 2336 "GET /prefix/index HTTP/1.1" 404 2458
+WARNING 2023-10-10 19:36:59,405 log 8112 2336 Not Found: /prefix/index/
+WARNING 2023-10-10 19:36:59,406 basehttp 8112 2336 "GET /prefix/index/ HTTP/1.1" 404 2461
+INFO 2023-10-10 19:37:03,543 views 8112 2336 Index page accessed
+INFO 2023-10-10 19:37:03,544 basehttp 8112 2336 "GET /prefix/ HTTP/1.1" 200 13

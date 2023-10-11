@@ -1,0 +1,7 @@
+INFO 2023-10-11 23:43:11,123 autoreload 21028 17176 Watching for file changes with StatReloader
+INFO 2023-10-11 23:43:28,331 autoreload 21028 17176 K:\django_lessons_gb\home_work\hw_one\myproject\myproject\settings.py changed, reloading.
+INFO 2023-10-11 23:43:29,614 autoreload 1524 21384 Watching for file changes with StatReloader
+INFO 2023-10-11 23:43:36,314 autoreload 1524 21384 K:\django_lessons_gb\home_work\hw_one\myproject\myproject\settings.py changed, reloading.
+INFO 2023-10-11 23:43:37,486 autoreload 3300 7208 Watching for file changes with StatReloader
+INFO 2023-10-11 23:43:44,287 basehttp 3300 12440 "GET / HTTP/1.1" 200 125
+INFO 2023-10-11 23:43:50,170 basehttp 3300 12440 "GET /about/ HTTP/1.1" 200 242
