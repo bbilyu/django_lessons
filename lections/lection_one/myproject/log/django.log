@@ -42,3 +42,120 @@ WARNING 2023-10-10 19:36:59,405 log 8112 2336 Not Found: /prefix/index/
 WARNING 2023-10-10 19:36:59,406 basehttp 8112 2336 "GET /prefix/index/ HTTP/1.1" 404 2461
 INFO 2023-10-10 19:37:03,543 views 8112 2336 Index page accessed
 INFO 2023-10-10 19:37:03,544 basehttp 8112 2336 "GET /prefix/ HTTP/1.1" 200 13
+INFO 2023-10-12 21:36:27,485 autoreload 9640 20040 Watching for file changes with StatReloader
+INFO 2023-10-12 21:56:09,808 autoreload 5240 18172 Watching for file changes with StatReloader
+INFO 2023-10-16 16:54:01,062 autoreload 17896 10588 Watching for file changes with StatReloader
+WARNING 2023-10-16 16:54:11,054 log 17896 17920 Not Found: /
+WARNING 2023-10-16 16:54:11,055 basehttp 17896 17920 "GET / HTTP/1.1" 404 2275
+WARNING 2023-10-16 16:54:11,158 log 17896 17920 Not Found: /favicon.ico
+WARNING 2023-10-16 16:54:11,159 basehttp 17896 17920 "GET /favicon.ico HTTP/1.1" 404 2326
+WARNING 2023-10-16 16:54:16,882 log 17896 17920 Not Found: /less2/hello
+WARNING 2023-10-16 16:54:16,883 basehttp 17896 17920 "GET /less2/hello HTTP/1.1" 404 2326
+INFO 2023-10-16 16:54:37,218 basehttp 17896 17920 "GET /less3/hello HTTP/1.1" 301 0
+INFO 2023-10-16 16:54:37,223 basehttp 17896 17920 "GET /less3/hello/ HTTP/1.1" 200 26
+INFO 2023-10-16 16:54:54,172 basehttp 17896 17920 "GET /less3/hello2/ HTTP/1.1" 200 23
+INFO 2023-10-16 16:54:56,807 basehttp 17896 17920 "GET /less3/hello/ HTTP/1.1" 200 26
+INFO 2023-10-16 17:06:35,684 basehttp 17896 15700 "GET /less3/hello2/ HTTP/1.1" 200 23
+INFO 2023-10-16 17:08:35,240 autoreload 17896 10588 K:\django_lessons_gb\lections\lection_one\myproject\myproject\urls.py changed, reloading.
+INFO 2023-10-16 17:08:36,689 autoreload 3120 13592 Watching for file changes with StatReloader
+INFO 2023-10-16 17:08:54,162 autoreload 3120 13592 K:\django_lessons_gb\lections\lection_one\myproject\myproject\urls.py changed, reloading.
+INFO 2023-10-16 17:08:55,640 autoreload 7000 15504 Watching for file changes with StatReloader
+INFO 2023-10-16 17:09:02,562 autoreload 7000 15504 K:\django_lessons_gb\lections\lection_one\myproject\myapp3\urls.py changed, reloading.
+INFO 2023-10-16 17:09:04,325 autoreload 14384 17476 Watching for file changes with StatReloader
+INFO 2023-10-16 17:10:22,135 autoreload 14384 17476 K:\django_lessons_gb\lections\lection_one\myproject\myapp3\views.py changed, reloading.
+INFO 2023-10-16 17:10:24,354 autoreload 16552 1620 Watching for file changes with StatReloader
+INFO 2023-10-16 17:26:13,565 autoreload 16552 1620 K:\django_lessons_gb\lections\lection_one\myproject\myapp3\views.py changed, reloading.
+INFO 2023-10-16 17:26:15,198 autoreload 6408 14940 Watching for file changes with StatReloader
+INFO 2023-10-16 17:26:29,387 autoreload 6408 14940 K:\django_lessons_gb\lections\lection_one\myproject\myapp3\views.py changed, reloading.
+INFO 2023-10-16 17:26:30,715 autoreload 5344 17132 Watching for file changes with StatReloader
+INFO 2023-10-16 17:34:55,090 autoreload 800 16824 Watching for file changes with StatReloader
+INFO 2023-10-16 17:36:16,563 autoreload 800 16824 K:\django_lessons_gb\lections\lection_one\myproject\myapp3\views.py changed, reloading.
+INFO 2023-10-16 17:36:18,574 autoreload 1916 3272 Watching for file changes with StatReloader
+INFO 2023-10-16 17:36:27,411 autoreload 1916 3272 K:\django_lessons_gb\lections\lection_one\myproject\myapp3\urls.py changed, reloading.
+INFO 2023-10-16 17:36:28,777 autoreload 1560 11612 Watching for file changes with StatReloader
+INFO 2023-10-16 17:36:50,347 autoreload 1560 11612 K:\django_lessons_gb\lections\lection_one\myproject\myapp3\urls.py changed, reloading.
+INFO 2023-10-16 17:36:51,471 autoreload 10928 18236 Watching for file changes with StatReloader
+INFO 2023-10-16 17:37:45,665 autoreload 10928 18236 K:\django_lessons_gb\lections\lection_one\myproject\myapp3\urls.py changed, reloading.
+INFO 2023-10-16 17:37:47,743 autoreload 2324 9512 Watching for file changes with StatReloader
+INFO 2023-10-16 17:37:53,207 basehttp 2324 7940 "GET /less3/posts/2022 HTTP/1.1" 301 0
+INFO 2023-10-16 17:37:53,217 basehttp 2324 7940 "GET /less3/posts/2022/ HTTP/1.1" 200 19
+INFO 2023-10-16 17:55:56,629 autoreload 2324 9512 K:\django_lessons_gb\lections\lection_one\myproject\myapp3\urls.py changed, reloading.
+INFO 2023-10-16 17:55:58,216 autoreload 11904 1456 Watching for file changes with StatReloader
+INFO 2023-10-16 17:56:12,311 autoreload 11904 1456 K:\django_lessons_gb\lections\lection_one\myproject\myapp3\views.py changed, reloading.
+INFO 2023-10-16 17:56:14,019 autoreload 17776 16756 Watching for file changes with StatReloader
+INFO 2023-10-16 17:56:20,813 autoreload 17776 16756 K:\django_lessons_gb\lections\lection_one\myproject\myapp3\views.py changed, reloading.
+INFO 2023-10-16 17:56:22,498 autoreload 15348 14976 Watching for file changes with StatReloader
+INFO 2023-10-16 17:56:42,799 autoreload 15348 14976 K:\django_lessons_gb\lections\lection_one\myproject\myapp3\urls.py changed, reloading.
+INFO 2023-10-16 17:56:44,669 autoreload 15728 5564 Watching for file changes with StatReloader
+INFO 2023-10-16 18:03:46,524 basehttp 15728 12044 "GET /less3/posts/2022/123 HTTP/1.1" 301 0
+INFO 2023-10-16 18:03:46,531 basehttp 15728 12044 "GET /less3/posts/2022/123/ HTTP/1.1" 200 22
+INFO 2023-10-16 18:04:16,994 autoreload 15728 5564 K:\django_lessons_gb\lections\lection_one\myproject\myapp3\views.py changed, reloading.
+INFO 2023-10-16 18:04:18,610 autoreload 15804 10336 Watching for file changes with StatReloader
+INFO 2023-10-16 18:04:39,169 autoreload 15804 10336 K:\django_lessons_gb\lections\lection_one\myproject\myapp3\views.py changed, reloading.
+INFO 2023-10-16 18:04:40,799 autoreload 17796 18100 Watching for file changes with StatReloader
+INFO 2023-10-16 18:05:10,706 autoreload 17796 18100 K:\django_lessons_gb\lections\lection_one\myproject\myapp3\views.py changed, reloading.
+INFO 2023-10-16 18:05:12,143 autoreload 17988 6080 Watching for file changes with StatReloader
+INFO 2023-10-16 18:11:23,426 basehttp 17988 9848 "GET /less3/posts/2022/6/python HTTP/1.1" 301 0
+INFO 2023-10-16 18:11:23,438 basehttp 17988 9848 "GET /less3/posts/2022/6/python/ HTTP/1.1" 200 360
+INFO 2023-10-16 18:18:43,563 autoreload 17988 6080 K:\django_lessons_gb\lections\lection_one\myproject\myapp3\views.py changed, reloading.
+INFO 2023-10-16 18:18:45,486 autoreload 3996 8608 Watching for file changes with StatReloader
+INFO 2023-10-16 18:19:05,235 autoreload 3996 8608 K:\django_lessons_gb\lections\lection_one\myproject\myapp3\urls.py changed, reloading.
+INFO 2023-10-16 18:19:06,925 autoreload 16304 14072 Watching for file changes with StatReloader
+INFO 2023-10-16 18:19:18,687 basehttp 16304 10032 "GET /less3 HTTP/1.1" 301 0
+INFO 2023-10-16 18:19:18,701 basehttp 16304 10032 "GET /less3/ HTTP/1.1" 200 175
+INFO 2023-10-16 18:23:46,077 autoreload 16304 14072 K:\django_lessons_gb\lections\lection_one\myproject\myapp3\views.py changed, reloading.
+INFO 2023-10-16 18:23:47,945 autoreload 18388 10984 Watching for file changes with StatReloader
+INFO 2023-10-16 18:24:54,321 autoreload 18388 10984 K:\django_lessons_gb\lections\lection_one\myproject\myapp3\urls.py changed, reloading.
+INFO 2023-10-16 18:24:56,123 autoreload 16580 8060 Watching for file changes with StatReloader
+WARNING 2023-10-16 18:24:56,405 log 16580 16632 Not Found: /less3/ша
+WARNING 2023-10-16 18:24:56,406 basehttp 16580 16632 "GET /less3/%D1%88%D0%B0 HTTP/1.1" 404 3552
+INFO 2023-10-16 18:24:58,784 basehttp 16580 16632 "GET /less3/if HTTP/1.1" 301 0
+INFO 2023-10-16 18:24:58,799 basehttp 16580 16632 "GET /less3/if/ HTTP/1.1" 200 352
+INFO 2023-10-16 18:26:24,550 autoreload 16580 8060 K:\django_lessons_gb\lections\lection_one\myproject\myapp3\views.py changed, reloading.
+INFO 2023-10-16 18:26:27,852 autoreload 17068 11440 Watching for file changes with StatReloader
+INFO 2023-10-16 18:26:28,330 basehttp 17068 16512 "GET /less3/if/ HTTP/1.1" 200 348
+INFO 2023-10-16 18:26:28,437 basehttp 17068 16512 "GET /less3/if/ HTTP/1.1" 200 348
+INFO 2023-10-16 19:13:59,591 autoreload 17068 11440 K:\django_lessons_gb\lections\lection_one\myproject\myapp3\views.py changed, reloading.
+INFO 2023-10-16 19:14:01,312 autoreload 15100 15536 Watching for file changes with StatReloader
+INFO 2023-10-16 19:14:48,016 autoreload 15100 15536 K:\django_lessons_gb\lections\lection_one\myproject\myapp3\urls.py changed, reloading.
+INFO 2023-10-16 19:14:49,696 autoreload 1116 16832 Watching for file changes with StatReloader
+INFO 2023-10-16 19:14:53,155 basehttp 1116 17552 "GET /less3/for HTTP/1.1" 301 0
+INFO 2023-10-16 19:14:53,167 basehttp 1116 17552 "GET /less3/for/ HTTP/1.1" 200 1148
+INFO 2023-10-16 19:22:11,666 basehttp 1116 16656 "GET /less3/if/ HTTP/1.1" 200 348
+INFO 2023-10-16 19:38:09,275 autoreload 1116 16832 K:\django_lessons_gb\lections\lection_one\myproject\myapp3\views.py changed, reloading.
+INFO 2023-10-16 19:38:10,944 autoreload 5696 8136 Watching for file changes with StatReloader
+INFO 2023-10-16 19:38:40,719 autoreload 5696 8136 K:\django_lessons_gb\lections\lection_one\myproject\myapp3\urls.py changed, reloading.
+INFO 2023-10-16 19:38:42,660 autoreload 9072 7820 Watching for file changes with StatReloader
+INFO 2023-10-16 19:38:48,033 autoreload 9072 7820 K:\django_lessons_gb\lections\lection_one\myproject\myapp3\urls.py changed, reloading.
+INFO 2023-10-16 19:38:50,210 autoreload 17048 13308 Watching for file changes with StatReloader
+INFO 2023-10-16 19:38:56,110 autoreload 17048 13308 K:\django_lessons_gb\lections\lection_one\myproject\myapp3\urls.py changed, reloading.
+INFO 2023-10-16 19:38:57,921 autoreload 16344 16792 Watching for file changes with StatReloader
+WARNING 2023-10-16 19:39:00,252 log 16344 13344 Not Found: /less3/idnex
+WARNING 2023-10-16 19:39:00,254 basehttp 16344 13344 "GET /less3/idnex HTTP/1.1" 404 4068
+WARNING 2023-10-16 19:39:05,039 log 16344 13344 Not Found: /less3/idnex/
+WARNING 2023-10-16 19:39:05,040 basehttp 16344 13344 "GET /less3/idnex/ HTTP/1.1" 404 4071
+INFO 2023-10-16 19:40:07,150 autoreload 18424 18076 Watching for file changes with StatReloader
+WARNING 2023-10-16 19:40:10,548 log 18424 6712 Not Found: /
+WARNING 2023-10-16 19:40:10,549 basehttp 18424 6712 "GET / HTTP/1.1" 404 2275
+INFO 2023-10-16 19:40:16,778 basehttp 18424 6712 "GET /less3/ HTTP/1.1" 200 175
+INFO 2023-10-16 19:40:20,576 basehttp 18424 6712 "GET /less3/index HTTP/1.1" 301 0
+INFO 2023-10-16 19:40:20,583 basehttp 18424 6712 "GET /less3/index/ HTTP/1.1" 200 213
+INFO 2023-10-16 19:40:27,259 basehttp 18424 6712 "GET /less3/about HTTP/1.1" 301 0
+INFO 2023-10-16 19:40:27,266 basehttp 18424 6712 "GET /less3/about/ HTTP/1.1" 200 221
+INFO 2023-10-16 19:41:32,755 autoreload 18424 18076 K:\django_lessons_gb\lections\lection_one\myproject\myproject\settings.py changed, reloading.
+INFO 2023-10-16 19:41:34,984 autoreload 18024 32 Watching for file changes with StatReloader
+INFO 2023-10-16 19:44:30,385 autoreload 18024 32 K:\django_lessons_gb\lections\lection_one\myproject\myproject\settings.py changed, reloading.
+INFO 2023-10-16 19:44:32,348 autoreload 17420 18120 Watching for file changes with StatReloader
+INFO 2023-10-16 19:45:39,609 basehttp 17420 18308 "GET /less3/about/ HTTP/1.1" 200 221
+INFO 2023-10-16 19:45:41,156 basehttp 17420 18308 "GET /less3/about/ HTTP/1.1" 200 221
+INFO 2023-10-16 19:45:42,212 basehttp 17420 18308 "GET /less3/about/ HTTP/1.1" 200 221
+INFO 2023-10-16 19:45:48,698 basehttp 17420 18308 "GET /less3/index/ HTTP/1.1" 200 273
+INFO 2023-10-16 20:00:20,880 autoreload 17420 18120 K:\django_lessons_gb\lections\lection_one\myproject\myproject\urls.py changed, reloading.
+INFO 2023-10-16 20:00:22,786 autoreload 14924 8972 Watching for file changes with StatReloader
+INFO 2023-10-16 20:00:29,356 basehttp 14924 14744 "GET / HTTP/1.1" 200 273
+INFO 2023-10-16 20:04:38,759 autoreload 14924 8972 K:\django_lessons_gb\lections\lection_one\myproject\myapp3\models.py changed, reloading.
+INFO 2023-10-16 20:04:40,630 autoreload 1928 15708 Watching for file changes with StatReloader
+INFO 2023-10-16 20:04:45,329 autoreload 1928 15708 K:\django_lessons_gb\lections\lection_one\myproject\myapp3\models.py changed, reloading.
+INFO 2023-10-16 20:04:47,065 autoreload 18268 6712 Watching for file changes with StatReloader
+INFO 2023-10-16 20:06:14,162 autoreload 18268 6712 K:\django_lessons_gb\lections\lection_one\myproject\myapp3\models.py changed, reloading.
+INFO 2023-10-16 20:06:16,336 autoreload 13040 10032 Watching for file changes with StatReloader
