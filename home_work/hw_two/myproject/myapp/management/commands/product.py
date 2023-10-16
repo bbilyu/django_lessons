@@ -3,10 +3,10 @@ from django.utils import timezone
 from myapp.models import Product
 
 # Создание продукта: python manage.py product_commands create --name "Product 1" --description "Description of Product 1" --price 10.50 --quantity 100
-# Чтение всех продукта по id:python manage.py product_commands read --id 1
-# Чтение всех продуктов: python manage.py product_commands read
-# Обновление продукта: python manage.py product_commands update --id 1 --name "Updated Product 1" --price 15.00
-# Удаление продукта: python manage.py product_commands delete --id 1
+# Чтение всех продукта по id:python manage.py product read --id 1
+# Чтение всех продуктов: python manage.py product read
+# Обновление продукта: python manage.py product update --id 1 --name "Updated Product 1" --price 15.00
+# Удаление продукта: python manage.py product delete --id 1
 
 class Command(BaseCommand):
     help = 'CRUD operations on Product model'
