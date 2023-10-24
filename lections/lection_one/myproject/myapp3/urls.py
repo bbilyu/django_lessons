@@ -15,6 +15,4 @@ urlpatterns = [
     path('about/', about, name='about'),
     path('author/<int:author_id>/', author_posts,name='author_posts'),
     path('post/<int:post_id>/', post_full, name='post_full'),
-
-
 ]
