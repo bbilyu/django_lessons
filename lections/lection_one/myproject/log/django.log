@@ -1284,3 +1284,71 @@ INFO 2023-10-24 16:27:50,196 basehttp 8212 19808 "GET /static/admin/js/collapse.
 INFO 2023-10-24 16:28:03,027 autoreload 8212 168 K:\django_lessons_gb\lections\lection_one\myproject\myapp5\admin.py changed, reloading.
 INFO 2023-10-24 16:28:04,307 autoreload 16288 19264 Watching for file changes with StatReloader
 INFO 2023-10-24 17:40:06,346 basehttp 16288 12584 "GET /admin/logout/ HTTP/1.1" 200 1662
+INFO 2023-10-27 20:55:12,721 autoreload 1600 19276 Watching for file changes with StatReloader
+INFO 2023-10-27 20:55:25,061 basehttp 1600 8508 "GET / HTTP/1.1" 200 10049
+INFO 2023-10-27 20:55:25,096 basehttp 1600 8508 "GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 200 12621
+INFO 2023-10-27 20:55:25,096 basehttp 1600 11684 "GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 200 13404
+INFO 2023-10-27 20:55:25,118 basehttp 1600 11684 "GET /static/debug_toolbar/css/print.css HTTP/1.1" 200 43
+INFO 2023-10-27 20:55:25,135 basehttp 1600 11684 "GET /static/debug_toolbar/js/utils.js HTTP/1.1" 200 4527
+WARNING 2023-10-27 20:55:25,213 log 1600 11684 Not Found: /favicon.ico
+WARNING 2023-10-27 20:55:25,214 basehttp 1600 11684 "GET /favicon.ico HTTP/1.1" 404 12408
+INFO 2023-10-27 20:56:03,959 basehttp 1600 11684 "GET /__debug__/render_panel/?store_id=34288a71cfb744138c6cb301e37675fb&panel_id=HistoryPanel HTTP/1.1" 200 4150
+INFO 2023-10-27 20:56:03,965 basehttp 1600 11684 "GET /static/debug_toolbar/js/history.js HTTP/1.1" 200 3330
+INFO 2023-10-27 20:56:21,563 basehttp 1600 11684 "GET /__debug__/render_panel/?store_id=34288a71cfb744138c6cb301e37675fb&panel_id=VersionsPanel HTTP/1.1" 200 760
+INFO 2023-10-27 20:58:52,781 autoreload 9508 16872 Watching for file changes with StatReloader
+INFO 2023-10-27 20:58:55,049 basehttp 9508 11860 "GET / HTTP/1.1" 200 10050
+INFO 2023-10-27 20:59:01,868 basehttp 9508 11860 "GET /__debug__/render_panel/?store_id=4924eba068e44d00aeceaa780464ef3a&panel_id=SettingsPanel HTTP/1.1" 200 26907
+INFO 2023-10-27 20:59:02,868 basehttp 9508 11860 "GET /__debug__/render_panel/?store_id=4924eba068e44d00aeceaa780464ef3a&panel_id=VersionsPanel HTTP/1.1" 200 760
+INFO 2023-10-27 20:59:56,667 basehttp 9508 11860 "GET /__debug__/render_panel/?store_id=4924eba068e44d00aeceaa780464ef3a&panel_id=HeadersPanel HTTP/1.1" 200 5267
+INFO 2023-10-27 21:03:40,083 basehttp 9508 11860 "GET /__debug__/render_panel/?store_id=34288a71cfb744138c6cb301e37675fb&panel_id=SQLPanel HTTP/1.1" 200 531
+INFO 2023-10-27 21:03:50,761 basehttp 9508 11860 "GET /__debug__/render_panel/?store_id=34288a71cfb744138c6cb301e37675fb&panel_id=StaticFilesPanel HTTP/1.1" 200 531
+INFO 2023-10-27 21:04:02,824 basehttp 9508 11860 "GET /__debug__/render_panel/?store_id=34288a71cfb744138c6cb301e37675fb&panel_id=TemplatesPanel HTTP/1.1" 200 531
+INFO 2023-10-27 21:04:14,656 basehttp 9508 11860 "GET /__debug__/render_panel/?store_id=4924eba068e44d00aeceaa780464ef3a&panel_id=SQLPanel HTTP/1.1" 200 428
+INFO 2023-10-27 21:04:23,124 basehttp 9508 11860 "GET / HTTP/1.1" 200 10050
+INFO 2023-10-27 21:04:24,637 basehttp 9508 11860 "GET /__debug__/render_panel/?store_id=468d2dd5fdfc4e5dbeacc21bbd703b8b&panel_id=TemplatesPanel HTTP/1.1" 200 6146
+INFO 2023-10-27 21:04:30,553 basehttp 9508 11860 "GET /__debug__/template_source/?template=myapp3/index.html&template_origin=Iks6XFxkamFuZ29fbGVzc29uc19nYlxcbGVjdGlvbnNcXGxlY3Rpb25fb25lXFxteXByb2plY3RcXG15YXBwM1xcdGVtcGxhdGVzXFxteWFwcDNcXGluZGV4Lmh0bWwi:1qwPJv:JIzFY4y9m9oCVL06L-AlIn-ZSNC2BNjILKzYw_M5MMc HTTP/1.1" 200 1623
+INFO 2023-10-27 21:04:33,784 basehttp 9508 11860 "GET /__debug__/render_panel/?store_id=468d2dd5fdfc4e5dbeacc21bbd703b8b&panel_id=StaticFilesPanel HTTP/1.1" 200 35803
+INFO 2023-10-27 21:04:56,111 basehttp 9508 11860 "GET /__debug__/render_panel/?store_id=468d2dd5fdfc4e5dbeacc21bbd703b8b&panel_id=SQLPanel HTTP/1.1" 200 428
+INFO 2023-10-27 21:04:57,937 basehttp 9508 11860 "GET / HTTP/1.1" 200 10050
+INFO 2023-10-27 21:04:59,829 basehttp 9508 11860 "GET /__debug__/render_panel/?store_id=386d560f3f574932ab5663e14d98e6bb&panel_id=SQLPanel HTTP/1.1" 200 428
+INFO 2023-10-27 21:05:02,007 basehttp 9508 11860 "GET /__debug__/render_panel/?store_id=386d560f3f574932ab5663e14d98e6bb&panel_id=CachePanel HTTP/1.1" 200 1737
+INFO 2023-10-27 21:05:10,297 basehttp 9508 11860 "GET /__debug__/render_panel/?store_id=386d560f3f574932ab5663e14d98e6bb&panel_id=SignalsPanel HTTP/1.1" 200 2310
+INFO 2023-10-27 21:07:09,087 basehttp 9508 11860 "GET / HTTP/1.1" 200 10493
+INFO 2023-10-27 21:07:10,251 basehttp 9508 11860 "GET /__debug__/render_panel/?store_id=b891e046842c4cf18675ef65615fa592&panel_id=ProfilingPanel HTTP/1.1" 200 35138
+WARNING 2023-10-27 21:07:41,065 log 9508 11860 Not Found: /user/add
+WARNING 2023-10-27 21:07:41,066 basehttp 9508 11860 "GET /user/add HTTP/1.1" 404 12839
+INFO 2023-10-27 21:07:51,931 basehttp 9508 11860 "GET /less4/user/add HTTP/1.1" 200 10848
+INFO 2023-10-27 21:07:51,951 basehttp 9508 19332 "GET /static/debug_toolbar/js/redirect.js HTTP/1.1" 200 48
+INFO 2023-10-27 21:07:59,350 basehttp 9508 19332 "GET /less4/user/add/ HTTP/1.1" 200 11189
+INFO 2023-10-27 21:08:01,708 basehttp 9508 19332 "GET /__debug__/render_panel/?store_id=4c95dd4bd2a84ff59df105b4c6545ac4&panel_id=SignalsPanel HTTP/1.1" 200 2310
+INFO 2023-10-27 21:08:04,236 basehttp 9508 19332 "GET /__debug__/render_panel/?store_id=4c95dd4bd2a84ff59df105b4c6545ac4&panel_id=ProfilingPanel HTTP/1.1" 200 37212
+INFO 2023-10-27 22:07:31,117 autoreload 18808 2668 Watching for file changes with StatReloader
+INFO 2023-10-27 22:07:33,721 basehttp 18808 2008 "GET / HTTP/1.1" 200 10493
+INFO 2023-10-27 22:07:33,750 basehttp 18808 2008 "GET / HTTP/1.1" 200 10493
+WARNING 2023-10-27 22:07:53,696 log 18808 2008 Not Found: /less6.
+WARNING 2023-10-27 22:07:53,697 basehttp 18808 2008 "GET /less6. HTTP/1.1" 404 13148
+INFO 2023-10-27 22:08:24,725 autoreload 18808 2668 K:\django_lessons_gb\lections\lection_one\myproject\myproject\urls.py changed, reloading.
+INFO 2023-10-27 22:08:25,476 autoreload 15072 10652 Watching for file changes with StatReloader
+WARNING 2023-10-27 22:08:25,829 log 15072 18688 Not Found: /less6.
+WARNING 2023-10-27 22:08:25,829 basehttp 15072 18688 "GET /less6. HTTP/1.1" 404 13149
+WARNING 2023-10-27 22:08:28,463 log 15072 18688 Not Found: /less6/
+WARNING 2023-10-27 22:08:28,464 basehttp 15072 18688 "GET /less6/ HTTP/1.1" 404 13560
+INFO 2023-10-27 22:08:35,969 basehttp 15072 18688 "GET /less6/db HTTP/1.1" 200 10830
+INFO 2023-10-27 22:08:35,989 basehttp 15072 13756 "GET /static/debug_toolbar/js/redirect.js HTTP/1.1" 200 48
+INFO 2023-10-27 22:08:37,638 basehttp 15072 13756 "GET /less6/db/ HTTP/1.1" 200 10617
+INFO 2023-10-27 22:09:38,898 basehttp 15072 13756 "GET /__debug__/render_panel/?store_id=214b3c7360c44533a61bb6dab17456f8&panel_id=RequestPanel HTTP/1.1" 200 1664
+INFO 2023-10-27 22:09:42,163 basehttp 15072 13756 "GET /__debug__/render_panel/?store_id=214b3c7360c44533a61bb6dab17456f8&panel_id=SQLPanel HTTP/1.1" 200 5429
+INFO 2023-10-27 22:10:17,182 basehttp 15072 13756 "GET /less6/view HTTP/1.1" 200 10836
+INFO 2023-10-27 22:10:19,057 basehttp 15072 14744 "GET /less6/view/ HTTP/1.1" 200 10602
+INFO 2023-10-27 22:10:21,746 basehttp 15072 14744 "GET /__debug__/render_panel/?store_id=10b0924c3950452c937f19f799214b7a&panel_id=SQLPanel HTTP/1.1" 200 6635
+INFO 2023-10-27 22:10:38,188 basehttp 15072 14744 "GET /less6/db HTTP/1.1" 200 10830
+INFO 2023-10-27 22:10:39,913 basehttp 15072 15364 "GET /less6/db/ HTTP/1.1" 200 10616
+INFO 2023-10-27 22:10:40,983 basehttp 15072 15364 "GET /__debug__/render_panel/?store_id=716934bd8fa74f40bb2d4a4a0da99abe&panel_id=SQLPanel HTTP/1.1" 200 5429
+INFO 2023-10-27 22:10:46,078 basehttp 15072 15364 "GET /less6/view HTTP/1.1" 200 10836
+INFO 2023-10-27 22:10:47,564 basehttp 15072 14048 "GET /less6/view/ HTTP/1.1" 200 10602
+INFO 2023-10-27 22:10:48,975 basehttp 15072 14048 "GET /__debug__/render_panel/?store_id=d9352f4f250e4d92aecd7f97800d52de&panel_id=ProfilingPanel HTTP/1.1" 200 39042
+INFO 2023-10-27 22:11:36,705 basehttp 15072 14048 "GET /less6/template HTTP/1.1" 200 10848
+INFO 2023-10-27 22:11:38,387 basehttp 15072 4584 "GET /less6/template/ HTTP/1.1" 200 10586
+INFO 2023-10-27 22:11:41,024 basehttp 15072 4584 "GET /__debug__/render_panel/?store_id=853b809e9bc04d3d9c2afb734864bb9d&panel_id=SQLPanel HTTP/1.1" 200 26412
+INFO 2023-10-27 22:11:51,614 basehttp 15072 4584 "GET /__debug__/render_panel/?store_id=853b809e9bc04d3d9c2afb734864bb9d&panel_id=TemplatesPanel HTTP/1.1" 200 6840
+INFO 2023-10-27 22:26:50,771 autoreload 15072 10652 K:\django_lessons_gb\lections\lection_one\myproject\myproject\settings.py changed, reloading.

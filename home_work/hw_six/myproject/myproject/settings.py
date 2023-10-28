@@ -15,23 +15,24 @@ from pathlib import Path
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
+
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/3.2/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = os.getenv('django-insecure-bz3s3heq3d106%_0^7^*_6+#$pfj(95hy=^u$0-2$7t%24ywee')
+SECRET_KEY = os.getenv('django-insecure-985($s1-@djzs929m9wvxrk+5zoddhm*&n_1bjwy1jai2vkppk')
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
-
-SESSION_COOKIE_SECURE = True
-CSRF_COOKIE_SECURE = True
 
 ALLOWED_HOSTS = [
     '127.0.0.1',
     'beloglazov.pythonanywhere.com',
 ]
+STATIC_ROOT = BASE_DIR / 'static/'
 
+SESSION_COOKIE_SECURE = True
+CSRF_COOKIE_SECURE = True
 # Application definition
 
 INSTALLED_APPS = [
@@ -42,17 +43,9 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'myapp',
-    'myapp2',
-    'myapp3',
-    'myapp4',
-    'myapp5',
-    'myapp6',
-    'debug_toolbar',
-
 ]
 
 MIDDLEWARE = [
-    'debug_toolbar.middleware.DebugToolbarMiddleware',
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
@@ -67,10 +60,7 @@ ROOT_URLCONF = 'myproject.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [
-            BASE_DIR / 'templates',
-
-        ],
+        'DIRS': [],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -85,6 +75,7 @@ TEMPLATES = [
 
 WSGI_APPLICATION = 'myproject.wsgi.application'
 
+
 # Database
 # https://docs.djangoproject.com/en/3.2/ref/settings/#databases
 
@@ -93,10 +84,10 @@ DATABASES = {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': '<your_username>$<your_database_name>',
         'USER': '<your_username>',
-        'PASSWORD': os.getenv('qwerty'),
+        'PASSWORD': os.getenv('MYSQL_PASSWORD'),
         'HOST': '<your_mysql_hostname>',
         'OPTIONS': {
-            'init_command': "SET NAMES 'utf8mb4';SET sql_mode = 'STRICT_TRANS_TABLES'",
+            'init_command': "SET NAMES 'utf8mb4';SETsql_mode='STRICT_TRANS_TABLES'",
             'charset': 'utf8mb4',
         },
     }
@@ -121,10 +112,11 @@ AUTH_PASSWORD_VALIDATORS = [
     },
 ]
 
+
 # Internationalization
 # https://docs.djangoproject.com/en/3.2/topics/i18n/
 
-LANGUAGE_CODE = 'ru-ru'
+LANGUAGE_CODE = 'en-us'
 
 TIME_ZONE = 'UTC'
 
@@ -133,6 +125,7 @@ USE_I18N = True
 USE_L10N = True
 
 USE_TZ = True
+
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/3.2/howto/static-files/
@@ -146,7 +139,6 @@ MEDIA_ROOT = BASE_DIR / 'media'
 # https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
-
 LOGGING = {
     'version': 1,
     'disable_existing_loggers': False,
@@ -166,7 +158,12 @@ LOGGING = {
         },
         'file': {
             'class': 'logging.FileHandler',
-            'filename': './log/django.log',
+            'filename': './logs/django.log',
+            'formatter': 'verbose',
+        },
+        'file1': {
+            'class': 'logging.FileHandler',
+            'filename': './logs/myapp.log',
             'formatter': 'verbose',
         },
     },
@@ -175,14 +172,10 @@ LOGGING = {
             'handlers': ['console', 'file'],
             'level': 'INFO',
         },
-        'myapp': {
-            'handlers': ['console', 'file'],
-            'level': 'DEBUG',
-            'propagate': True,
+    'myapp': {
+         'handlers': ['console', 'file1'],
+         'level': 'INFO',
+         'propagate': True,
         },
     },
 }
-
-INTERNAL_IPS = [
-    '127.0.0.1',
-]
